@@ -4,5 +4,8 @@ body{
     background-size: cover;
 }
 h2{
-    font-family: ;
+    font-size: 3em;
+}
+p{
+    font-size: 2em;
 }
