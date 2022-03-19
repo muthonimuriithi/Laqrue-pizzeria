@@ -8,6 +8,9 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
     <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Hurricane&display=swap" rel="stylesheet">
     <title>pizzeria-galore</title>
 </head>
 
@@ -15,10 +18,27 @@
 
     <div class="container">
         <div class="intro">
-            <h2 class="hup">Pizzeria <span>Galore</span></h2>
+            <h2 id="hup">Pizzeria <span>Galore</span></h2>
             <p>Welcome to our galore, lets dine together! Place your order today.</p>
 
 
+        </div>
+        
+        <div class="container">
+            <div class="row">
+
+                <div class="col-md-4">
+                    <img src="/images/personpizz.jpg" alt="us" height="200px" id="pic">
+    
+                </div>
+                
+                <div class="col-md-6">
+                <h4>About us</h4>
+                <p>Here at <em>pizzeria galore</em> your taste buds are our priorities. Our aim is to provide quality pizzas of different sizes and toppings. Feel free to dine with us at affordable prices.</p>
+
+            </div>
+
+            
         </div>
 
         <div class="container">
@@ -26,6 +46,7 @@
                 <div class="col-md-4">
                     <img src="/images/pizza-g2f7a9a225_1920.jpg" alt="pizza-size" height="200px">
                     <p>Pizza Size</p>
+            
 
 
                 </div>
@@ -33,6 +54,7 @@
                 <div class="col-md-4">
                     <img src="/images/pizza-gda7bdb03a_1920.jpg" alt="toppings" height="200px">
                     <p>Pizza Toppings</p>
+                    
                 </div>
 
 
@@ -51,15 +73,21 @@
             <div class="row">
                 <form>
                     <h4>Place your order</h4>
-                    <div class="form-group">
-                        <input type="text" name="size" class="size" id="size" required placeholder="Size">
-                        <datalist id="datalistOptions">
-                            <option value="Small">
-                            <option value="Medium">
-                            <option value="Large">
-                        </datalist>
+                    <select class="form-control size">
+                        <option label="Small" value="500">Small</option>
+                        <option label="Medium" value="700">Medium</option>
+                        <option label="Large" value="1000">Large</option>
+                      </select>
 
-                    </div>
+                        <div class=" col-md-4form-group">
+                            <input type="text" name="Toppings" class="tops" id="tops" required placeholder="Toppings">
+
+                            <div class="col-md-4form-group">
+                                <input type="text" name="crust" class="crust" id="crust" required placeholder="crust">
+
+                            </div>
+
+
 
                 </form>
 
