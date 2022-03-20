@@ -30,7 +30,7 @@ p{
 .size{
     margin-bottom: 5em;
 }
-#pic{
+.pic{
     border-radius: 50%;
 }
 .ip{
@@ -65,3 +65,4 @@ p{
     margin-top: 3em;
     margin-bottom: 2em;
 }
+
