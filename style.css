@@ -40,10 +40,15 @@ p{
     margin-top: 5em;
 
 }
+.ip h4{
+    font-size: 2em;
+    color: chocolate;
+}
 .order{
     width: 140px;
     background-color: cadetblue;
     color: white;
+    text-align: center;
 }
 .menu{
     text-align: center;
@@ -51,4 +56,12 @@ p{
 
 }.menu h4{
     font-size: 3em;
+}
+.end h4{
+    margin-top: 3em;
+}
+.cue{
+    width: 80%;
+    margin-top: 3em;
+    margin-bottom: 2em;
 }
