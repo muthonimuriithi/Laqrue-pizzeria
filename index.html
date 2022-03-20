@@ -33,7 +33,7 @@
                 </div>
                 
                 <div class="col-md-6">
-                <h4>About us</h4>
+                <h4><u>About us</u></h4>
                 <p>Here at <em>pizzeria galore</em> your taste buds are our priorities. Our aim is to provide quality pizzas of different sizes and toppings. Feel free to dine with us at affordable prices.</p>
 
             </div>
@@ -43,7 +43,7 @@
 
         <div class="container">
             <div class="row">
-                <div class="col-md-4">
+                <div class="col-md-4 mt-3em">
                     <img src="/images/pizza-g2f7a9a225_1920.jpg" alt="pizza-size" height="200px">
                     <p>Pizza Size</p>
             
@@ -69,31 +69,43 @@
             </div>
         </div>
 
-        <div class="col">
-            <div class="row">
+        <div class="ip">
+            <h4>Place your order</h4>
+
+        </div>
+
+        <div class="row">
+                <div class="col-md-4 col-sm-12">
                 <form>
-                    <h4>Place your order</h4>
-                    <select class="form-control size">
+                     <select class="form-control size" placeholder="size">
                         <option label="Small" value="500">Small</option>
                         <option label="Medium" value="700">Medium</option>
                         <option label="Large" value="1000">Large</option>
                       </select>
+                    </div>
 
-                        <div class=" col-md-4form-group">
-                            <input type="text" name="Toppings" class="tops" id="tops" required placeholder="Toppings">
+                    <div class="col-md-4 col-sm-12">
+                        <select class="form-control topping">
+                        <option label="broccoli" value="100">Broccoli</option>
+                        <option label="Pepper" value="200">Red pepper</option>
+                        <option label="Fennel" value="300">Fennel</option>
+                      </select>
+                    </div>
 
-                            <div class="col-md-4form-group">
-                                <input type="text" name="crust" class="crust" id="crust" required placeholder="crust">
+                    <div class="col-md-4 col-sm-12">
+                        <select class="form-control crust">
+                        <option label="staffed" value="100">Staffed</option>
+                        <option label="cracker" value="200">Cracker</option>
+                        <option label="cheesse" value="300">Cheese</option>
+                      </select>
+                    </div>
 
-                            </div>
-
-
-
+                    <button class="order" type="submit">Order Now</button>
                 </form>
 
             </div>
 
-        </div>
+       
 
 
 
