@@ -24,10 +24,19 @@ p{
     text-align: center;
     margin-top: em;
     font-family: 'Hurricane';
+    color: chocolate;
+    font-size: 5em;
 }
 .size{
     margin-bottom: 5em;
 }
 #pic{
     border-radius: 50%;
+}
+.ip{
+    font-family: 'Hurricane';
+    text-align: center;
+    font-size: 1.5em;
+    margin-top: 7em;
+
 }
