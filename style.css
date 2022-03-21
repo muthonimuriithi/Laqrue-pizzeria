@@ -49,6 +49,7 @@ p{
     background-color: cadetblue;
     color: white;
     text-align: center;
+    margin-top: 5em;
 }
 .menu{
     text-align: center;
@@ -65,4 +66,10 @@ p{
     margin-top: 3em;
     margin-bottom: 2em;
 }
-
+#size, #toppings, #crust{
+    width: 80%;
+    height: 3em;
+}
+.high{
+    margin-top: 7em;
+}

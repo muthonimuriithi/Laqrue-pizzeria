@@ -81,7 +81,7 @@
         <div class="row">
                 <div class="col-md-4 col-sm-12">
                 <form>
-                     <select class="form-control size" placeholder="size">
+                    <select name="size" id="size">
                         <option label="Small" value="500">Small</option>
                         <option label="Medium" value="700">Medium</option>
                         <option label="Large" value="1000">Large</option>
@@ -89,29 +89,40 @@
                     </div>
 
                     <div class="col-md-4 col-sm-12">
-                        <select class="form-control topping">
+                        <input type="checkbox" name="Broccoli" id="Broccoli" value="100">
+                        <label for="Broccoli">Broccoli</label><br>
+
+                        <input type="checkbox" name="Red pepper" id="Red pepper" value="200">
+                        <label for="Red pepper">Red pepper</label><br>
+
+                        <input type="checkbox" name="Fennel" id="Fennel" value="300">
+                        <label for="Fennel">Fennel</label>
+                        <!-- <select name="toppings" id="toppings">
                         <option label="broccoli" value="100">Broccoli</option>
                         <option label="Pepper" value="200">Red pepper</option>
                         <option label="Fennel" value="300">Fennel</option>
-                      </select>
+                      </select> -->
                     </div>
 
                     <div class="col-md-4 col-sm-12">
-                        <select class="form-control crust">
+                        <select name="crust" id="crust">
                         <option label="staffed" value="80">Staffed</option>
                         <option label="cracker" value="90">Cracker</option>
                         <option label="cheesse" value="100">Cheese</option>
                       </select>
                     </div>
 
+                    
+
                     <button class="order" type="submit">Order Now</button>
+                
                 </form>
 
             </div>
             
              
              
-             <table class="cue">
+             <!-- <table class="cue">
                  <thead>
                      <tr>
                          <th scope="col">Order No.</th>
@@ -131,7 +142,7 @@
                       <td id="total"></td>
                     </tr>
                   </tbody>
-             </table>
+             </table> -->
             
 
              <div class="high">
@@ -139,11 +150,11 @@
                   <button class="butt" type="submit">Add Order</button>
 
                   <div class="high1">
-                    <h3>The total is: <span></span></h3>
-                    <p>Would you like delivery for an additional <em>200</em>?</p>
+                    <h3>Your total is: <span></span></h3>
+                    <p>How about an extra fee of delivery for 500?</p>
                     <h4>Thank you for your order. They have been dispatched to <span></span></h4>
                     <div class="location text-center">
-                      <input type="text" size="50" placeholder="What is your location?" required />
+                      <input type="text" size="50" placeholder="Write your location" required />
                       <button class="done" type="submit">Done!</button>
                     </div>
                   </div>
@@ -158,24 +169,12 @@
 
               <div class="end">
                   <h4>location</h4>
-                  <p><em>Kimathi Street, Nairobi.</em></p>
-
-                  <div class="end2"> 
-                      <h4>Contacts</h4>
+                  <p><em><b>Kimathi Street, Nairobi.</em></b></p>
+                   <h4>Contacts</h4>
                       <a href="loisemuthoni181@gmail.com">loisemuthoni181@gmail.com</a>
                       <p>Tel 0725408650</p>
-
-                  </div>
-
-
-              </div>
-
-
-       
-
-
-
-    </div>
+                     </div>
+            </div>
 
 
 
