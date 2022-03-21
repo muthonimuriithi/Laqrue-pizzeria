@@ -61,12 +61,13 @@ p{
 .end h4{
     margin-top: 3em;
 }
-.cue{
-    width: 80%;
+.table{
+    width: 40%;
     margin-top: 3em;
     margin-bottom: 2em;
+    display: block;
 }
-#size, #toppings, #crust{
+.size, .toppings, .crust{
     width: 80%;
     height: 3em;
 }
