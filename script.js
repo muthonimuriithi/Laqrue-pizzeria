@@ -7,6 +7,7 @@ $(document).ready(function () {
   $(".yes").hide();
   $(".no").hide();
   $(".high1 h4").hide();
+  $("#gud").hide();
 
   $(".order").click(function () {
     var sizeOfPizza = $(".size option:selected").val();
@@ -56,5 +57,42 @@ $(document).ready(function () {
 
       $("#pizza").append(newRow);
     });
+    $(".check-out").click(function() {
+      $(".butt").hide();
+      $(".table").hide();
+      $(".check-out").hide();
+      $(".high1").show();
+      $(".po").show();
+      $(".yes").show();
+      $(".no").show();
+      $(".location").hide();
+      maxTotal = maxTotal + total;
+      
+
+      $(".pi").html("The total is" + maxTotal);
+    });
+    $(".yes").click(function() {
+      $(".high1 h4").hide();
+      $(".yes").hide();
+      $(".no").hide();
+      $("#gud").show();
+      $(".high1").html("Your total is" + (maxTotal + 500));
+    });
+    $(".no").click(function() {
+      $(".high1").hide();
+      $(".yes").hide();
+      $(".no").hide();
+      $("#gud").hide();
+      alert("Thank you for you order")
+    });
+    $(".done").click(function() {
+      var location = $("#fot").val();
+      alert("Thank you for your order. They have been dispatched to " +   location)
+      $(".high1 h4").show();
+      $("#gud").hide();
+      
+      
+    });
   });
+
 });
